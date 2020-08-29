@@ -1,0 +1,77 @@
+#title {
+    background-color: rgb(157, 162, 175);
+}
+.row{
+    padding-top:  5rem;
+
+}
+
+h1{
+    font-family: 'Fredoka One', cursive;
+    font-size: 3rem;
+    line-height: 2;
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+.nav-item{
+    padding: 0 10px;
+}
+.phone{
+    width: 60%;
+    transform: rotate(20deg);
+    position: absolute;
+}
+/* position and z-index to make element behind the other section */
+#features{
+    padding: 2% 15%;
+    text-align: center;
+    background-color:#fff;
+    position: relative;
+}
+h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.fa-5x{
+    color: rgb(248, 72, 125);
+    margin-bottom: 1rem;
+}
+.fa-5x:hover{
+    color: rgb(58, 58, 196)
+}
+#testimonials{
+    padding:7% 15%;
+    text-align: center;
+    background-color: rgb(182, 137, 182);
+}
+.testimonial-image{
+    width: 15%;
+    border-radius: 100%;
+}
+#press{
+    background-color: rgb(182, 137, 182);
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-img{
+    width: 15%;
+}
+#pricing{
+    text-align: center;
+    padding: 50px;
+    background-color:rgb(157, 162, 175);
+}
+/* css breakpoint set condition to change the display layout */
+@media (max-width: 1028px) {
+    .phone{
+        position: static;
+        transform: rotate(0);}
+    #title {
+        text-align: center;
+    }
+}
+#cta{
+    text-align: center;
+    padding: 2% 15%;
+    background-color: rgb(182, 137, 182);;
+}
